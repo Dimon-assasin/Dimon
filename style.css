@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 20px 100px 25px;
+}
+.navigation {
+    border-radius: 100px;
+    background: #60C1BD;
+    height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.veterinarians {
+    margin-left: 305px;
+}
+.logo {
+    margin-left: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.logo:hover {
+    text-shadow:5px 5px 5px #284854;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+.nav {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #284854;
+    text-decoration: none;
+}
+.nav:hover {
+    color: #FFFFFF;
+    text-shadow:5px 5px 5px #284854;
+    transition: 0.1s;
+}
+.login_button {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    width: 77px;
+    height: 27px;
+    margin-right: 77px;
+}
+.login_button:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    box-shadow: 5px 5px 5px rgba(34, 60, 80, 0.2);
+}
+.header__section {
+    background: #284854;
+    height: 799px;
+}
+.h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85px;
+    line-height: 102px;
+    color: #8BC441;
+    width: 712px;
+    height: 204px;
+    margin-bottom: 60px;
+    margin-right: 48px;
+    
+}
+.white_small_text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.header_text_size {
+    width: 542px;
+    height: 112px;
+}
+.header_content {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px auto 0;
+}
+.card__section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -80px;
+}
+.card {
+    width: 506px;
+    height: 200px;
+    background: #F4F6F0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 5px 11px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.card_text_heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 43px;
+    color: #8BC441;
+}
+.card_text_paragraph {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #60C1BD;
+    width: 190px;
+}
+.cross_legend {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #60C1BD;
+}
+.legend {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
+    color: #284854;
+    margin-bottom: 31px;
+}
+.IndeVets_section_title {
+    margin-top: 300px;
+    margin-bottom: 140px;
+    text-align: center;
+}
+.block_advantages {
+    width: 940px;
+    height: 285px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.advantages_subtitle {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #798B56;
+    margin-bottom: 10px;
+}
+.advantages_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #8BC441;
+}
+.advantages_paragraph {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: #284854;
+}
+.advantages_text {  
+    width: 525px;
+}
+.our_mission__section {
+    height: 601px;
+    background: #F4F6F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission_paragraph {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #284854;
+    width: 504px;
+    margin-bottom: 58px;
+}
+.mission_content {
+    height: 396px;
+}
+.mission_img {
+    margin-right: 150px;
+}
+.mission_button {
+    width: 121px;
+    height: 38px;
+    box-sizing: border-box;
+    color: #60C1BD;
+    cursor: pointer;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    border: 1px solid #60C1BD;
+    background: #F4F6F0;
+    transition: 0.1s;
+}
+.mission_button:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    box-shadow: 5px 5px 5px rgba(34, 60, 80, 0.2);
+}
+.interaction__section {
+    height: 438px;
+    background: #8BC441;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.interaction_heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 64px;
+    color: #FFFFFF;
+    width: 516px;
+    height: 128px;
+}
+.interaction_text {
+    margin-left: 165px;
+}
+.interaction_paragraph {
+    width: 240px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 57px;
+    margin-right: 132px;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.interaction_paragraph:hover {
+    text-shadow: 5px 5px 5px rgba(34, 60, 80, 0.2);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.1s;
+}
+footer {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.footer_box {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #284854;
+    margin-bottom: 25px;
+}
+.footer_link {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #60C1BD;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 18px;
+}
+.FindUs__footer > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #60C1BD;
+    margin-bottom: 29px;
+}
+.footer_other_links {
+    display: flex;
+    margin: 0 0 37px 240px;
+}
+.footer_other_links > a {
+    margin-right: 39px ;
+}
+.copiright_footer {
+    display: inline;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #284854;
+    margin-left: 240px;
+}
