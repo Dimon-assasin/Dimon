@@ -25,12 +25,12 @@ header {
     line-height: 35px;
     color: #FFFFFF;
     text-decoration: none;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 .logo:hover {
     text-shadow:5px 5px 5px #284854;
     transform: scale(1.1);
-    transition: 0.1s;
+    transition: 0.3s;
 }
 .nav {
     font-family: Nunito Sans;
@@ -40,11 +40,12 @@ header {
     line-height: 25px;
     color: #284854;
     text-decoration: none;
+    transition: 0.3s;
 }
 .nav:hover {
     color: #FFFFFF;
     text-shadow:5px 5px 5px #284854;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 .login_button {
     font-family: Nunito Sans;
@@ -59,10 +60,11 @@ header {
     width: 77px;
     height: 27px;
     margin-right: 77px;
+    transition: 0.3s;
 }
 .login_button:hover {
     transform: scale(1.1);
-    transition: 0.1s;
+    transition: 0.3s;
     box-shadow: 5px 5px 5px rgba(34, 60, 80, 0.2);
 }
 .header__section {
@@ -80,7 +82,7 @@ header {
     height: 204px;
     margin-bottom: 60px;
     margin-right: 48px;
-    
+
 }
 .white_small_text {
     font-family: Nunito Sans;
@@ -194,7 +196,7 @@ header {
     line-height: 29px;
     color: #284854;
 }
-.advantages_text {  
+.advantages_text {
     width: 525px;
 }
 .our_mission__section {
@@ -233,11 +235,11 @@ header {
     line-height: 22px;
     border: 1px solid #60C1BD;
     background: #F4F6F0;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 .mission_button:hover {
     transform: scale(1.1);
-    transition: 0.1s;
+    transition: 0.3s;
     box-shadow: 5px 5px 5px rgba(34, 60, 80, 0.2);
 }
 .interaction__section {
@@ -267,13 +269,13 @@ header {
     margin-top: 57px;
     margin-right: 132px;
     text-decoration: none;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 .interaction_paragraph:hover {
     text-shadow: 5px 5px 5px rgba(34, 60, 80, 0.2);
     transform: scale(1.1);
     cursor: pointer;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 footer {
     margin-top: 120px;
